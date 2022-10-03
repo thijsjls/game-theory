@@ -223,11 +223,8 @@ def main():
     
     # Example games:
     # game = [(random.randint(-50, 50), random.randint(-50, 50)) for i in range(4)] # random game
-    game = [(-10,-10),(-25,0),(0,-25),(-20,-20)]                                  # prisoners dilemma (as defined in class)
-    # game = [(3,5),(2,7),(1,6),(8,4)]                                              # hw1 2a
-    # game = [(2,7),(2,5),(2,1),(2,7)]                                              # hw1 2b
+    game = [(-10,-10),(-25,0),(0,-25),(-20,-20)]                                  # prisoners dilemma
     # game = [(1,-1),(-1,1),(-1,1),(1,-1)]                                          # equal coins
-    # game = [(2,2),(1,0),(0,1),(0,0)]                                              # omerta prisoners dilemma (hw2 1b)
     
     print_game(game)
 
